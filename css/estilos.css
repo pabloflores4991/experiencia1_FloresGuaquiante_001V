@@ -43,6 +43,8 @@ body{
 
 nav.navbar {
     background-color: #1A1A1A;
+    align-items: right;
+
     
   color: white;
 }
