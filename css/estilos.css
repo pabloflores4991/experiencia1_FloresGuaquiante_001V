@@ -1,7 +1,8 @@
 h1{
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
 
 }
 
@@ -70,3 +71,45 @@ footer {
 a img:hover {
     color: #fff;
 }
+
+.tarjetas-somos {
+    display: block;
+    width: 50%;
+    height: 160px;
+    align-items: center;
+}
+
+table{
+
+}
+
+
+
+#caja {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
+
+  h2{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h3{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+    text-align: center;
+}
+
+h4{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:40px;
+    
+}
+
