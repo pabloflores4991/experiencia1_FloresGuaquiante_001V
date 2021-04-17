@@ -4,7 +4,7 @@
         <!--Seccion donde se define la configuracion de las paginas-->
         <!--vincular archivos css, js, jquery, bootstrap-->
         <!--vincular imagenes con formato ico-->
-        <title>Pet-Shop</title>
+        <title>Pet Shop-Contactanos</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <meta charset="UTF-8">
@@ -13,14 +13,14 @@
     <body>
         <!--comentarios-->
 
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" >  
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
               <span class="navbar-toggler-icon"></span>
             </button>
             
             <!-- logo -->
             <a class="navbar-brand" href="index.html">
-              <img src="img/pet-shop-logo.jpg" width="70" height="40" alt="inicio">
+              <img src="img/logo.jpg" width="50" height="40" alt="inicio">
             </a>
             
             <!-- enlaces -->
@@ -30,13 +30,13 @@
                   <a class="nav-link" href="index.html">Pet-Shop</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="carrito.html">Carrito</a>
+                  <a class="nav-link" href="#">Carrito</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contactanos.html">Contactanos</a>
+                  <a class="nav-link" href="contactanos.html">Contáctanos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="quienessomos.html">Quienes somos</a>
+                  <a class="nav-link" href="quienessomos.html">Quiénes somos</a>
                 </li>  
                 <li class="nav-item">
                     <a class="nav-link" href="#">Sign in</a> <!--pop-up de inicio y/o creacion de usuario-->
@@ -54,22 +54,19 @@
             </ol>
             <!-- diapositivas -->
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/pru5.jpg" alt="">
+              <div class="carousel-item active ">
+                <img class="d-block w-100" src="img/portada6.jpg" alt="">
                   <div class="carousel-caption">
-                    <p>Desliza</p>
                   </div>
               </div>
               <div class="carousel-item">
-                <img src="img/pru6.jpg" alt="">
+                <img class="d-block w-100" src="img/portada10.jpg" alt="">
                   <div class="carousel-caption">
-                    <p>Desliza</p>
                   </div>
               </div>
               <div class="carousel-item">
-                  <img src="img/pru7.png" alt="">
+                  <img class="d-block w-100" src="img/portada12.jpg" alt="">
                   <div class="carousel-caption">
-                    <p>Desliza</p>
                   </div>
               </div>
             </div>
@@ -83,40 +80,43 @@
               <span class="sr-only">Siguiente</span>
             </a>
           </div>
-        
+
+          <br>
           <h1>contáctanos</h1>
           <br>
           <br>
           
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-lg-6">
               <h2>Nos encontramos en:</h2>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6045017942406!2d-70.75342214632697!3d-33.51166557385158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dcd1fe0c7bab%3A0x4d17b82a7ba77488!2sDuoc%20UC%3A%20Sede%20Maipu!5e0!3m2!1ses!2scl!4v1618207256394!5m2!1ses!2scl" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6045017942406!2d-70.75342214632697!3d-33.51166557385158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dcd1fe0c7bab%3A0x4d17b82a7ba77488!2sDuoc%20UC%3A%20Sede%20Maipu!5e0!3m2!1ses!2scl!4v1618207256394!5m2!1ses!2scl" width="400" height="385" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <br />
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <h4>Envíanos un mensaje</h4>
               <h3 >Información general al +56974782354 </h3>
               <h3>Reclamos al +56923254789</h3>
               <hr>
               
-              <form class="my-form">
-                  <div class="form-group col-md-6">
-                      <input class="form-control" id="form-name" placeholder="Nombre">
-                  </div>
-                  <div class="form-group col-md-6">
-                      <input type="email" class="form-control" id="form-email" placeholder="Email">
-                  </div>
-                  <div class="form-group group col-md-4">
-                      <label for="form-subject">Telefono:</label>
-                      <input type="text" class="form-control" id="form-subject" placeholder="Opcional">
-                  </div>
-                  <div class="form-group "> 
-                    <textarea class="form-control" rows="5" id="comentarios" placeholder="Comentarios" name="comentarios"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-danger">Enviar</button>  
-                  <br><br>                 
-              </form>
+              
+                <form class="my-form">
+                    <div class="form-group col-md-6">
+                        <input class="form-control" id="form-name" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" id="form-email" placeholder="Email">
+                    </div>
+                    <div class="form-group group col-md-4">
+                        <label for="form-subject">Telefono:</label>
+                        <input type="text" class="form-control" id="form-subject" placeholder="Opcional">
+                    </div>
+                    <div class="form-group "> 
+                      <textarea class="form-control" rows="5" id="comentarios" placeholder="Comentarios" name="comentarios"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Enviar</button>  
+                    <br><br>                 
+                </form>
+              
           </div>
 
           </div>

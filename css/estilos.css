@@ -1,10 +1,16 @@
 h1{
-    color: #000000;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-
+  color:#000000;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
 }
+
+
+.titulo{
+  color: #080808;
+  text-align: left;
+}
+        
 
 h2{
   color: #000000;
@@ -53,25 +59,15 @@ body{
     display: inline-block;
 }
 
-.carousel-inner {
-    display: block;
-    width: 100%;
-    height: 260px;
-    align-items: center;
-}
+
 .carousel-item {
     
     height: 100%;
     width: 100%;
 }
 
-nav.navbar {
-    background-color: #000000;
-    align-items: right;
 
-    
-  color: white;
-}
+
 
 a {
     height: 50%;
@@ -102,10 +98,6 @@ a img:hover {
     align-items: center;
 }
 
-table{
-
-}
-
 
 
 #caja {
@@ -121,7 +113,6 @@ table{
     border: 1px solid rgba(0, 0, 0, 0.05);
     padding: 10px;
     margin-bottom: 20px;
-    background-color: white;
     text-align: center;
     -webkit-transition: border-color 0.1s, -webkit-box-shadow 0.1s;
          -o-transition: border-color 0.1s, box-shadow 0.1s;
@@ -185,3 +176,28 @@ table{
   }
   
   .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .video-responsive {
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 80.25%;
+    padding-top: 100px;
+    position: relative;
+    }
+  .video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+
+    h6.blocktext {
+      margin-left: 20%;
+      margin-right: 20%;
+      width: 80%
+  }
+
+  .h5{
+    color: black;
+  }
